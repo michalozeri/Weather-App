@@ -7,8 +7,8 @@ getCities,
 }
 
 const KEY = 'searchesDB'
-const API_KEY = 'H629xpUGraN9e4AXVZf0npY6mcvVEeT4' //gmail
-// const API_KEY = 'OXGZWJJ3iMSbkYY7BwQjwlGHaednFCPn' //hotmail
+// const API_KEY = 'H629xpUGraN9e4AXVZf0npY6mcvVEeT4' //gmail
+const API_KEY = 'OXGZWJJ3iMSbkYY7BwQjwlGHaednFCPn' //hotmail
 // const API_KEY = 'm9lAGyPN4SxWZAFBBSghB43DxuBB1VDj' //Alon
 
 async function query(cityCode=215854){
