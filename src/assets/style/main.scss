@@ -1,0 +1,16 @@
+//BASICS
+@import '../style/basics/base.scss';
+
+//PAGES
+@import '../style/pages/weather-app.scss';
+@import './pages/favorites';
+
+//CMPS
+@import './cmps/app-header';
+@import './cmps/weather-list';
+@import './cmps/weather-preview';
+@import './cmps/search';
+@import './cmps/toggle-favorite';
+@import './cmps/convert-btn'
+
+

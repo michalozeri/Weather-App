@@ -1,0 +1,94 @@
+.favorites{
+    height: 90vh;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+   .favorites-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow-y:scroll;
+    height: 90vh;
+    .favorite-city{
+        margin: 50px 20px 0 ;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        background-color: rgba(255, 255, 255, 0.219);
+        min-width: 250px;
+        height: 300px;
+        font-size: 1.2rem;
+        text-align: center;
+        position: relative;
+        cursor: pointer;
+        button{
+            background-color: transparent;
+            border: none;
+            position: relative;
+            left: 100px;
+            top: 10px;
+            img{
+                height: 15px;
+                visibility: hidden;
+            }
+        }
+        .weather{
+            display: flex;
+            flex-direction: column-reverse;
+            .temp{
+                margin-top: 20px;
+                .big-font{
+                    font-size: 2.5rem;
+                }
+            }
+        }
+    }
+    .favorite-city:hover{
+        button{
+            img{
+              visibility: visible;
+            }
+        }
+    }
+   }
+   ::-webkit-scrollbar {
+    width: 20px;
+  }
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: rgba(13, 13, 14, 0.438);
+    border-radius: 10px;
+  }
+}
+@media (max-width: 400px) {
+    .favorites{
+       .favorites-container{
+        .favorite-city{
+            height: 200px;
+            button{
+                background-color: transparent;
+                border: none;
+                position: relative;
+                left: 100px;
+                top: 10px;
+                cursor: pointer;
+                img{
+                    height: 15px;
+                    visibility: visible;
+                }
+            }
+            .weather{
+                .temp{
+                    .big-font{
+                        font-size: 2rem;
+                    }
+                }
+                img{
+                    width: 100px;
+                    margin: auto;
+                }
+            }
+        }
+    }
+}
+}

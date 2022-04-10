@@ -1,0 +1,94 @@
+.weather-preview{
+    margin: 50px 20px 0;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    background-color: rgba(255, 255, 255, 0.219);
+    max-width: 250px;
+    height: 400px;
+    padding: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+    position: relative;
+    .preview-container{
+        .date-container{
+            display: flex;
+            align-items: center;
+            .date{
+                display: flex;
+                flex-direction: column;
+                margin: 5px;
+                .month{
+                    font-size: 2rem;
+                    margin-bottom: 10px;
+                }
+            }
+            img{
+                height: 100px;
+            }
+        }
+        .temperature{
+            text-align: center;
+            margin: 40px 0 20px;
+            .big-font{
+                font-size: 3.7rem;
+            }
+        }
+    }
+    .text{
+      font-size: 1.3rem;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .drop{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        bottom: 40px;
+       left: 40%;
+       img{
+           height: 20px;
+       }
+    }
+}
+@media (max-width: 400px) {
+    .weather-preview{
+        margin-top: 10px;
+        min-width: 300px;
+        height: 150px;
+        .preview-container{
+          display: flex;
+          justify-content: center;
+          margin-bottom: 10px;
+            .date-container{
+                display: flex;
+               justify-content: center;
+                .date{
+                    display: flex;
+                    flex-direction: column;
+                    margin: 0;
+                    .month{
+                        font-size: 1.5rem;
+                        margin-bottom:0;
+                    }
+                }
+                img{
+                    height: 70px;
+                }
+            }
+            .temperature{
+                margin: 10px 0 5px;
+                display: flex;
+                flex-direction: column;
+                .big-font{
+                    font-size: 1.5rem;
+                }
+            }
+        }
+            .text{
+              font-size: 1.2rem;
+              margin-bottom: 10px;
+            }
+            .drop{
+                bottom: 5px;
+            }
+            
+        }
+}

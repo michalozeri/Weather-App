@@ -1,0 +1,33 @@
+.weather-app{
+    height: 90vh;
+    font-family: Arial, Helvetica, sans-serif;
+    .location-title{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 30px;
+        .location-name{
+            text-align: center;
+            .city{
+                text-align: center;
+                font-size: 2.8rem;
+                margin-right: 10px;
+            }
+            .country{
+                font-size: 2rem;
+                margin-right: 20px;
+            }
+        }
+    }
+}
+@media (max-width: 400px) {
+    .weather-app{
+        height: 100vh;
+        .location-title{
+            flex-direction: column;
+            margin: 10px 0 10px;
+            .location-name{
+            }
+        }
+    }
+}

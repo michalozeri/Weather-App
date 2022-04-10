@@ -1,0 +1,81 @@
+.app-header{
+   height: 10vh; 
+   display: flex;
+   align-items: center;
+   background-color: inherit;
+   .container{
+     width: 85vw;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin: auto;
+     padding: 10px;
+      h1{
+        font-size: 2.3rem;
+        font-family: 'Permanent Marker', cursive;
+        font-weight: bolder;
+      img{
+           height: 2rem;
+        }
+   }
+   nav{
+      display: flex;
+      align-items: center;
+      a{
+         text-decoration: none;
+         font-size: 1.3rem; 
+      
+         background-size: 200% 100%;
+         background-position: -100%;
+         display: inline-block;
+         padding: 5px 0;
+         position: relative;
+         -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;
+         transition: all 0.4s ease-in-out;     
+      }
+      .dark{
+         color: rgb(168, 167, 168);
+      }
+      .light{
+         color: rgb(51, 17, 51);  
+      }
+          
+      a:hover {
+         background-position: 0;
+      }
+          
+      a:hover::before {
+         width:100%;
+      }   
+      a:not(:last-child) {
+         margin-right: 20px;
+      }
+      a:is(.active, .my-active) {
+         background-position: 0;
+      }
+   }
+}
+}
+
+
+@media (max-width: 400px) {
+   .app-header{
+      .container{
+        width: 100vw;
+        h1{
+           font-size: 1.5rem;
+           img{
+              height: 1.5rem;
+           }
+        }
+        nav{
+          
+           a{
+              font-size: 1rem;
+           }
+      }
+      }
+   }
+}
+

@@ -1,0 +1,20 @@
+.toggleBtn{
+    text-align: center;
+    width: 40px;
+    margin: auto;
+    img{
+      height: 40px;
+      cursor: pointer;
+      display: flex;
+      align-self: center;
+
+    }
+}
+@media (max-width: 400px) {
+  .toggleBtn{
+    margin-top: 10px;
+    img{
+      height: 35px;
+    }
+  }
+}

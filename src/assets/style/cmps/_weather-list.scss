@@ -1,0 +1,17 @@
+.weather-list{
+    display: flex;
+    flex-direction: column;
+    max-width: 80vw;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    .list-container{
+     display: flex;
+       
+   }
+   @media (max-width: 400px) {
+       .list-container{
+           flex-direction: column;
+       }
+   }
+}
