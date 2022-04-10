@@ -11,7 +11,7 @@ export function App() {
     var background = require('./assets/imgs/background2.jpeg')
 
     return (
-        <section style={{ backgroundImage: isDarkMode ? "url(" + background + ")" : '', color: isDarkMode ? 'rgb(168, 167, 168)' : '' }} className='App'>
+        <section style={{backgroundImage: isDarkMode ? "url(" + background + ")" : '', color: isDarkMode ? 'rgb(168, 167, 168)' : '' }} className='app'>
             <Router>
                 <div>
                     <AppHeader />

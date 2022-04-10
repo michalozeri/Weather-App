@@ -22,7 +22,7 @@
 }
 @media (max-width: 400px) {
     .weather-app{
-        height: 100vh;
+        height: auto;
         .location-title{
             flex-direction: column;
             margin: 10px 0 10px;
