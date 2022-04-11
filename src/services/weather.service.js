@@ -7,9 +7,9 @@ getCities,
 }
 
 const KEY = 'searchesDB'
-// const API_KEY = 'H629xpUGraN9e4AXVZf0npY6mcvVEeT4' //gmail
-// const API_KEY = 'OXGZWJJ3iMSbkYY7BwQjwlGHaednFCPn' //hotmail
-const API_KEY = 'm9lAGyPN4SxWZAFBBSghB43DxuBB1VDj' //Alon
+// const API_KEY = 'H629xpUGraN9e4AXVZf0npY6mcvVEeT4' 
+const API_KEY = 'OXGZWJJ3iMSbkYY7BwQjwlGHaednFCPn' 
+// const API_KEY = 'm9lAGyPN4SxWZAFBBSghB43DxuBB1VDj' 
 
 async function query(cityCode=215854){
     const res= await axios.get(`https://dataservice.accuweather.com/forecasts/v1/daily/5day/${cityCode}?apikey=${API_KEY}&details=true`)

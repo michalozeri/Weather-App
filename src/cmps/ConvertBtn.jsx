@@ -12,7 +12,7 @@ export function ConvertBtn() {
 
     return (
         <section className="convert-btn">
-            <button onClick={onSetIsConverted}>Convert to Celsius</button>
+            <button onClick={onSetIsConverted}>{isConverted? 'Convert to Fahrenheit': 'Convert to Celsius'}</button>
         </section>
     )
 }
