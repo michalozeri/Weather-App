@@ -1,6 +1,6 @@
 import { loadCities, loadWeather, setSearchBy } from '../store/actions/weatherActions'
 import { useSelector, useDispatch } from 'react-redux'
-import { useEffect, useCallback, useState } from 'react'
+import { useEffect, useCallback} from 'react'
 import { WeatherList } from '../cmps/WeatherList'
 import { Search } from '../cmps/Search'
 import { ToggleFavorite } from '../cmps/ToggleFavorite'
