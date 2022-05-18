@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Michal-Ozeri-6-4-21/static/css/main.54071a40.css",
-    "main.js": "/Michal-Ozeri-6-4-21/static/js/main.19fa5021.js",
-    "static/js/787.13d76ca7.chunk.js": "/Michal-Ozeri-6-4-21/static/js/787.13d76ca7.chunk.js",
-    "static/media/background2.jpeg": "/Michal-Ozeri-6-4-21/static/media/background2.410a4dd1b55b0bb1b9c8.jpeg",
-    "static/media/background.jpeg": "/Michal-Ozeri-6-4-21/static/media/background.86df55f2447f80073217.jpeg",
-    "static/media/17.png": "/Michal-Ozeri-6-4-21/static/media/17.4b8d4543699af9743509.png",
-    "static/media/41.png": "/Michal-Ozeri-6-4-21/static/media/41.da8960711b2a7bdd80c0.png",
-    "static/media/16.png": "/Michal-Ozeri-6-4-21/static/media/16.02f6796a4b217cbdd262.png",
-    "static/media/15.png": "/Michal-Ozeri-6-4-21/static/media/15.9aac7942a26db293440b.png",
-    "index.html": "/Michal-Ozeri-6-4-21/index.html",
-    "static/media/favicon.ico": "/Michal-Ozeri-6-4-21/static/media/favicon.edc5f38ab2ce82a04075.ico",
-    "main.54071a40.css.map": "/Michal-Ozeri-6-4-21/static/css/main.54071a40.css.map",
-    "main.19fa5021.js.map": "/Michal-Ozeri-6-4-21/static/js/main.19fa5021.js.map",
-    "787.13d76ca7.chunk.js.map": "/Michal-Ozeri-6-4-21/static/js/787.13d76ca7.chunk.js.map"
+    "main.css": "/Weather-App/static/css/main.da6816a5.css",
+    "main.js": "/Weather-App/static/js/main.09f42135.js",
+    "static/js/787.13d76ca7.chunk.js": "/Weather-App/static/js/787.13d76ca7.chunk.js",
+    "static/media/background2.jpeg": "/Weather-App/static/media/background2.410a4dd1b55b0bb1b9c8.jpeg",
+    "static/media/background.jpeg": "/Weather-App/static/media/background.86df55f2447f80073217.jpeg",
+    "static/media/17.png": "/Weather-App/static/media/17.4b8d4543699af9743509.png",
+    "static/media/41.png": "/Weather-App/static/media/41.da8960711b2a7bdd80c0.png",
+    "static/media/16.png": "/Weather-App/static/media/16.02f6796a4b217cbdd262.png",
+    "static/media/15.png": "/Weather-App/static/media/15.9aac7942a26db293440b.png",
+    "index.html": "/Weather-App/index.html",
+    "static/media/favicon.ico": "/Weather-App/static/media/favicon.edc5f38ab2ce82a04075.ico",
+    "main.da6816a5.css.map": "/Weather-App/static/css/main.da6816a5.css.map",
+    "main.09f42135.js.map": "/Weather-App/static/js/main.09f42135.js.map",
+    "787.13d76ca7.chunk.js.map": "/Weather-App/static/js/787.13d76ca7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.54071a40.css",
-    "static/js/main.19fa5021.js"
+    "static/css/main.da6816a5.css",
+    "static/js/main.09f42135.js"
   ]
 }
